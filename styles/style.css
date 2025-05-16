@@ -76,19 +76,26 @@ ul li a:hover{
     width: 1200px;
     text-align: center;
     margin: 50px auto;
-    background-color:#f3f4f7;
+    background-color:#fdfdfd;
     border-radius: 10px ;
     /* padding-left: 100px; */
 
+}
+.hero-section-title{
+    padding: 10px 100px;
+}
+.hero-section-greeting{
+    padding: 10px 200px;
 }
 /* hero one -section */
 .hero-one{
     display: flex;
     justify-content: space-between;
-
+     border-radius: 10px;
     margin: 30px 50px;
+    padding: 0px 10px;
     /* border: 2px solid green; */
-    background-color: #617197;
+    background-color: #e9ecf1;
     /* padding: 0px 30px; */
 }
 .hero-one-container{
@@ -124,9 +131,11 @@ ul li a:hover{
 .hero-two{
     display: flex;
     /* border: 2px solid red; */
+    border-radius: 10px;
     justify-content: space-between;
     margin: 30px 50px;
-    background-color: antiquewhite;
+    padding: 0px 10x;
+    background-color: rgb(233, 229, 224);
 }
 .hero-two-container{
     margin-right: 100px;
@@ -150,10 +159,11 @@ ul li a:hover{
 .hero-three{
     display: flex;
     /* border: 2px solid green; */
+    border-radius: 10px;
     margin: 30px 50px;
     justify-content: space-between;
     padding: 0px 10px;
-    background-color: rgb(240, 239, 236);
+    background-color: rgb(241, 245, 245);
 }
 .hero-three-container{
     text-align: start;
@@ -178,8 +188,9 @@ ul li a:hover{
 }
 /* video section style */
 .video-section{
-    background-color: aliceblue;
+    background-color: rgb(249, 251, 252);
     margin: 20px 80px;
+    border-radius: 10px;
     /* border: 2px solid green; */
     /* background: transparent; */
 }
